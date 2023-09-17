@@ -1,0 +1,33 @@
+Categories
+Mens (5)
+Ladies (4)
+Smart Watches (3)
+
+Brands
+Fossil (6)
+Casio (2)
+Tissot (2)
+Citizen (2)
+
+
+12 ürün
+görsel, ad, fiyat, 
+
+MF	01.jpg	211.35	Gents Fossil Blue Watch FS6013
+MF	02.jpg	186.34	Gents Fossil Watches Incription Watch
+MF	03.jpg	198.85	Gents Fossil Watches Neutra Watch
+LF	04.jpg	186.34	Ladies Fossil Raquel Watch ES5303
+LF	05.jpg	248.87	Ladies Fossil Raquel Watch ES5304
+SF	06.jpg 	348.92	Fossil Gen 6 Ombre Bluetooth 5 Smartwatch FTW4061
+MC	07.jpg	211.35	Mens Casio Sapphire Crystal 710 Series Chronograph Watch
+LC	08.jpg	137.57	Casio 'G-Shock' Pink Plastic/Resin Quartz Watch
+ST	09.jpg	1183.01	Mens Tissot Titanium Solar Powered Bluetooth Smartwatch
+LT	10.jpg	315.09	Ladies Tissot Classic Dream Small Watch
+MC	11.jpg	373.93	Mens Citizen Tsuyosa Automatic Watch
+LC	12.jpg	211.35	Citizen Eco-Drive Crystal Case Ladies Watch Black
+
+
+
+
+
+
