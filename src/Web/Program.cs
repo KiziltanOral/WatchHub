@@ -1,8 +1,12 @@
 global using Infrastructure.Identity;
 global using ApplicationCore.Interfaces;
 global using Infrastructure.Data;
+global using Web.Models;
 global using Microsoft.AspNetCore.Identity;
 global using Microsoft.EntityFrameworkCore;
+global using ApplicationCore.Entities;
+using Web.Services;
+using Web.Interfaces;
 
 namespace Web
 {
@@ -26,6 +30,7 @@ namespace Web
             builder.Services.AddControllersWithViews();
 
             builder.Services.AddScoped(typeof(IRepository<>), typeof(EfRepository<>));
+            builder.Services.AddScoped<IHomeViewModelService, HomeViewModelService>();
 
             var app = builder.Build();
 
@@ -43,6 +48,8 @@ namespace Web
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+
+            app.UseRequestLocalization("en-US");
 
             app.UseRouting();
 
