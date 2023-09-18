@@ -16,9 +16,9 @@ namespace Web.Controllers
             _homeViewModelService = homeViewModelService;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? categoryId, int? brandId)
         {
-            var vm = await _homeViewModelService.GetHomeViewModelAsync();
+            var vm = await _homeViewModelService.GetHomeViewModelAsync(categoryId, brandId);
             return View(vm);
         }
 

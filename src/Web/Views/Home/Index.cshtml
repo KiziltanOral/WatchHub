@@ -3,7 +3,31 @@
     ViewData["Title"] = "Home Page";
 }
 
-<h1>Products</h1>
+<div class="card mb-3">
+    <div class="card-body">
+        <form class="row align-items-center">
+            <div class="col-auto">
+                <label asp-for="CategoryId">Category</label>
+            </div>
+            <div class="col-auto">
+                <select asp-for="CategoryId" asp-items="@Model.Categories" class="form-select">
+                    <option value="">Choose</option>
+                </select>
+            </div>
+            <div class="col-auto">
+                <label asp-for="BrandId">Brand</label>
+            </div>
+            <div class="col-auto">
+                <select asp-for="BrandId" asp-items="@Model.Brands" class="form-select">
+                    <option value="">Choose</option>
+                </select>
+            </div>
+            <div class="col-auto">
+                <button class="btn btn-primary">Filter</button>
+            </div>
+        </form>
+    </div>
+</div>
 
 <div class="row">
     @foreach (var item in Model.Products)
